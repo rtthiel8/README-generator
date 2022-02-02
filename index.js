@@ -19,15 +19,30 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'motivation',
-            message: 'What was your motivation?'
+            name: 'installation',
+            message: 'How do you install this?'
+        },
+        {
+            type: 'input',
+            name: 'contributors',
+            message: 'Name all contributors to this project.'
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please enter your GitHub username.'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?'
         }
-    ]).then(ans => writeToFile('README.md', generateMarkdown(ans)));
+    ]).then(answers => writeToFile('README.md', generateMarkdown(answers)));
 };
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    console.log(data);
+    //console.log(data);
     fs.writeFile(path.join(__dirname, fileName), data, err => {
         if (err) {
             console.error(err);
