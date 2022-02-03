@@ -19,6 +19,16 @@ function generateMarkdown(data) {
   <p>${data.description}</p>
 
   ## **Table of Contents**
+  <nav>
+    <ol>
+      <li><a href="#install">Install</a></li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#contributing">Contributing</a></li>
+      <li><a href="#test">Tests</a></li>
+      <li><a href="#questions">Questions</a></li>
+    </ol>
+  </nav>
 
   ## **Installation**
    <p>${data.installation}</p>
@@ -27,8 +37,8 @@ function generateMarkdown(data) {
 
   ## **License**
 
-  ## **Contributors**
-   ${data.contributors}
+  ## **Contributing**
+   ${data.contributing}
 
   ## **Tests**
   

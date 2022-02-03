@@ -24,7 +24,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'contributors',
+            name: 'contributing',
             message: 'Name all contributors to this project.'
         },
         {
