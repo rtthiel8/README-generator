@@ -1,23 +1,23 @@
 
-  # Galloping Ghost
+  # Brewber
 
-  ## Description
-   Dan Deacon
+  ## **Description**
+  <p>Find local food and beers.</p>
 
-  ## Table of Contents
+  ## **Table of Contents**
 
-  ## Installation
-   wandering star
+  ## **Installation**
+   <p>Browser app</p>
 
-  ## Usage
+  ## **Usage**
 
-  ## License
+  ## **License**
 
-  ## Contributors
-   me, DD
+  ## **Contributors**
+   Project 1 members
 
-  ## Tests
+  ## **Tests**
   
-  ## Questions
+  ## **Questions**
   GitHub: "https://github.com/rtthiel8
   Email: rtthiel8@gmail.com
