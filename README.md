@@ -1,31 +1,36 @@
 
-  # Project1
+  # My Project
 
   ## **Description**
-  <p>testing app</p>
+  <p>Satisfies all requirments.</p>
 
   ## **Table of Contents**
   <nav>
-    <ol>
-      <li><a href="#install">Install</a></li>
+    <ul>
+      <li><a href="#installatiob">Install</a></li>
       <li><a href="#usage">Usage</a></li>
       <li><a href="#license">License</a></li>
       <li><a href="#contributing">Contributing</a></li>
-      <li><a href="#test">Tests</a></li>
+      <li><a href="#tests">Tests</a></li>
       <li><a href="#questions">Questions</a></li>
-    </ol>
+    </ul>
   </nav>
 
-  ## **Installation**
-   <p>browser</p>
 
+  ## **Installation**
+   <p>Browser</p>
+
+ 
   ## **Usage**
 
+ 
   ## **License**
-
+   Mozilla Public License 2.0
+  
   ## **Contributing**
-   me
+   Ryan Thiel
 
+  
   ## **Tests**
   
   ## **Questions**

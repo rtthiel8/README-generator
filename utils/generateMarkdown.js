@@ -20,26 +20,31 @@ function generateMarkdown(data) {
 
   ## **Table of Contents**
   <nav>
-    <ol>
-      <li><a href="#install">Install</a></li>
+    <ul>
+      <li><a href="#installatiob">Install</a></li>
       <li><a href="#usage">Usage</a></li>
       <li><a href="#license">License</a></li>
       <li><a href="#contributing">Contributing</a></li>
-      <li><a href="#test">Tests</a></li>
+      <li><a href="#tests">Tests</a></li>
       <li><a href="#questions">Questions</a></li>
-    </ol>
+    </ul>
   </nav>
+
 
   ## **Installation**
    <p>${data.installation}</p>
 
+ 
   ## **Usage**
 
+ 
   ## **License**
-
+   ${data.license}
+  
   ## **Contributing**
    ${data.contributing}
 
+  
   ## **Tests**
   
   ## **Questions**

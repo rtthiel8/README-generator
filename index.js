@@ -10,17 +10,37 @@ const questions = () => {
         {
             type: 'input',
             name: 'title',
-            message: 'What is your projects title?'
+            message: 'What is your projects title? (Required)',
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your projects title.')
+                } return false;
+            }
         },
         {
             type: 'input',
             name: 'description',
-            message: 'Provide a description of your project.'
+            message: 'Provide a description of your project.',
+            validate: descriptionInput => {
+                if (descriptionInput) {
+                    return true;
+                } else {
+                    console.log('You must enter a description of your project.')
+                } return false;
+            }
         },
         {
             type: 'input',
             name: 'installation',
             message: 'How do you install this?'
+        },
+        {
+            type: 'rawlist',
+            name: 'license',
+            message: 'Would you like to add a license for your project.',
+            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense', 'None'],
         },
         {
             type: 'input',
@@ -36,7 +56,7 @@ const questions = () => {
             type: 'input',
             name: 'email',
             message: 'What is your email address?'
-        }
+        },
     ]).then(answers => writeToFile('README.md', generateMarkdown(answers)));
 };
 
