@@ -8,7 +8,11 @@ function renderLicenseBadge(data) {
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
   if (data.license === 'GNU AGPLv3')
-    return `![license](<https://choosealicense.com/licenses/agpl-3.0/>)`
+    return `![license](https://choosealicense.com/licenses/agpl-3.0/)`
+  if (data.license === 'GNU GPLv3')
+    return `![license](https://choosealicense.com/licenses/gpl-3.0/)`
+  if (data.license === 'Mozilla Public License 2.0')
+    return `![license](https://choosealicense.com/licenses/mpl-2.0/)`
 }
 
 // TODO: Create a function that returns the license section of README
