@@ -6,7 +6,10 @@ function renderLicenseBadge(data) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(data) {
+  if (data.license === 'GNU AGPLv3')
+    return `![license](<https://choosealicense.com/licenses/agpl-3.0/>)`
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -19,7 +22,7 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data)}
 
   ## **Description**
-  <p>${data.description}</p>
+   ${data.description}
 
   ## **Table of Contents**
   [Installation](#installation)
@@ -30,7 +33,7 @@ function generateMarkdown(data) {
   [Questions](#questions)
 
   ## **Installation**
-   <p>${data.installation}</p>
+   ${data.installation}
 
  
   ## **Usage**
@@ -38,6 +41,7 @@ function generateMarkdown(data) {
  
   ## **License**
   This application is covered under the ${data.license} license.
+  ${renderLicenseLink(data)}
 
   ## **Contributing**
    ${data.contributing}
