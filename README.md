@@ -1,9 +1,9 @@
 
-  # retret
-  ![license](<https://img.shields.io/badge/license-Mozilla Public License 2.0-green>)
+  # Project Title
+  ![license](<https://img.shields.io/badge/license-Apache License 2.0-green>)
 
   ## **Description**
-   rett
+   Described here
 
   ## **Table of Contents**
   [Installation](#installation)
@@ -14,22 +14,22 @@
   [Questions](#questions)
 
   ## **Installation**
-   retre
+   Install instructions
 
  
   ## **Usage**
-   ret
+   Usage instructions
  
   ## **License**
-  This application is covered under the Mozilla Public License 2.0 license.
-  [Link](https://choosealicense.com/licenses/mpl-2.0/)
+  This application is covered under the Apache License 2.0 license.
+  [Link](https://choosealicense.com/licenses/apache-2.0/)
 
   ## **Contributing**
-   retetr
+   Contributors
 
   ## **Tests**
   
   ## **Questions**
-  GitHub: https://github.com/retrett
+  GitHub: https://github.com/rtthiel8
   Reach out via email for additional questions.
-  Email: retrt
+  Email: rtthiel8@gmail.com
