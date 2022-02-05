@@ -1,13 +1,13 @@
 
-  # My Project
+  # This time will it work?
 
   ## **Description**
-  <p>Satisfies all requirments.</p>
+  <p>Boy I hope so</p>
 
   ## **Table of Contents**
   <nav>
     <ul>
-      <li><a href="#installatiob">Install</a></li>
+      <li><a href="#installation">Install</a></li>
       <li><a href="#usage">Usage</a></li>
       <li><a href="#license">License</a></li>
       <li><a href="#contributing">Contributing</a></li>
@@ -18,21 +18,22 @@
 
 
   ## **Installation**
-   <p>Browser</p>
+   <p>Try again</p>
 
  
   ## **Usage**
-
+   Please PLease PLease
  
   ## **License**
-   Mozilla Public License 2.0
-  
-  ## **Contributing**
-   Ryan Thiel
+   Boost Software License 1.0
+   ![license](https://img.shields.io/badge/Boost Software License 1.0-Boost Software License 1.0-green)
 
-  
+  ## **Contributing**
+   ME!
+
   ## **Tests**
   
   ## **Questions**
   GitHub: "https://github.com/rtthiel8
-  Email: rtthiel8@gmail.com
+  Reach out via email for additional questions.
+  Email: florg@gmail.com

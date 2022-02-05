@@ -34,7 +34,12 @@ const questions = () => {
         {
             type: 'input',
             name: 'installation',
-            message: 'How do you install this?'
+            message: 'How do you install this application?'
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Please explain how to use your application.'
         },
         {
             type: 'rawlist',
@@ -68,10 +73,12 @@ function writeToFile(fileName, data) {
             console.error(err);
         }
     });
-}
+};
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+    questions();
+}
 
 // Function call to initialize app
-questions();
+ init();
