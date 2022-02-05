@@ -1,9 +1,9 @@
 
-  # retrettrttrt
-  ![license](<https://img.shields.io/badge/license-GNU GPLv3-green>)
+  # retret
+  ![license](<https://img.shields.io/badge/license-Mozilla Public License 2.0-green>)
 
   ## **Description**
-   retret
+   rett
 
   ## **Table of Contents**
   [Installation](#installation)
@@ -14,22 +14,22 @@
   [Questions](#questions)
 
   ## **Installation**
-   rtretret
+   retre
 
  
   ## **Usage**
-   retretre
+   ret
  
   ## **License**
-  This application is covered under the GNU GPLv3 license.
-  ![license](https://choosealicense.com/licenses/gpl-3.0/)
+  This application is covered under the Mozilla Public License 2.0 license.
+  [Link](https://choosealicense.com/licenses/mpl-2.0/)
 
   ## **Contributing**
-   retrt
+   retetr
 
   ## **Tests**
   
   ## **Questions**
-  GitHub: https://github.com/retre
+  GitHub: https://github.com/retrett
   Reach out via email for additional questions.
-  Email: retr
+  Email: retrt
