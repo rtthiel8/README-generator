@@ -1,9 +1,9 @@
 
-  # Project Title
+  # Title
   ![license](<https://img.shields.io/badge/license-Apache License 2.0-green>)
 
   ## **Description**
-   Described here
+   Description of my project.
 
   ## **Table of Contents**
   [Installation](#installation)
@@ -14,18 +14,18 @@
   [Questions](#questions)
 
   ## **Installation**
-   Install instructions
+   This is how to install it.
 
  
   ## **Usage**
-   Usage instructions
+   This is how you use it.
  
   ## **License**
-  This application is covered under the Apache License 2.0 license.
+  This application is covered under Apache License 2.0.
   [Link](https://choosealicense.com/licenses/apache-2.0/)
 
   ## **Contributing**
-   Contributors
+   These are the contributors
 
   ## **Tests**
   

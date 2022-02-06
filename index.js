@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const questions = () => {
+const promptUser = () => {
     return inquirer.prompt([
         {
             type: 'input',
@@ -22,24 +22,38 @@ const questions = () => {
         {
             type: 'input',
             name: 'description',
-            message: 'Provide a description of your project.',
+            message: 'Provide a description of your project. (Required)',
             validate: descriptionInput => {
                 if (descriptionInput) {
                     return true;
                 } else {
-                    console.log('You must enter a description of your project.')
+                    console.log('Please enter a description of your project.')
                 } return false;
             }
         },
         {
             type: 'input',
             name: 'installation',
-            message: 'How do you install this application?'
+            message: 'How do you install this application? (Required)',
+            validate: installationInput => {
+                if (installationInput) {
+                    return true;
+                } else {
+                    console.log('Please enter installation instructions.')
+                } return false;
+            }
         },
         {
             type: 'input',
             name: 'usage',
-            message: 'Explain how to use your application.'
+            message: 'Explain how to use your application. (Required)',
+            validate: usageInput => {
+                if (usageInput) {
+                    return true;
+                } else {
+                    console.log('PLease enter usage instructions.')
+                } return false;
+            }
         },
         {
             type: 'rawlist',
@@ -77,7 +91,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    questions();
+    promptUser();
 }
 
 // Function call to initialize app
