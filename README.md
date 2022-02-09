@@ -1,9 +1,9 @@
 
   # Title
-  ![license](<https://img.shields.io/badge/license-Apache License 2.0-green>)
+  ![license](<https://img.shields.io/badge/license-Mozilla Public License 2.0-green>)
 
   ## **Description**
-   Description of my project.
+   description
 
   ## **Table of Contents**
   [Installation](#installation)
@@ -14,18 +14,18 @@
   [Questions](#questions)
 
   ## **Installation**
-   This is how to install it.
+   instalation instructions
 
  
   ## **Usage**
-   This is how you use it.
+   Usage instructions
  
   ## **License**
-  This application is covered under Apache License 2.0.
-  [Link](https://choosealicense.com/licenses/apache-2.0/)
+  This application is covered under Mozilla Public License 2.0.
+  [Link](https://choosealicense.com/licenses/mpl-2.0/)
 
   ## **Contributing**
-   These are the contributors
+   All contributors
 
   ## **Tests**
   
